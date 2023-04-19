@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Mulish:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+  padding: 0.5rem;
+  color: #0f172a;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mulish", sans-serif;
+}
+p {
+  line-height: 1.7;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ol {
+  list-style-type: disc;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.question {
+  border-bottom: 2px dotted #3f3f46;
+  padding-bottom: 1rem;
+}
+
+button {
+  font-family: inherit;
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 2px #ec4899 solid;
+  background-color: #f3f4f6;
+  color: #be185d;
+}
+
+nav {
+  margin: 0.5rem 0rem 1rem 0rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 1.5rem;
+}
+
+.card-item {
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 2px solid #ec4899;
+  width: 230px;
+}
